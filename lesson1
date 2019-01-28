@@ -1,0 +1,20 @@
+print("Hello World!!")
+a=1
+print(a) #when we print a variable, it will not be in bw quotes
+a = "Hi I am now a string"
+print(a)  # in python a variable refers to a certain value and not contains like other languages.
+a=1
+f=a
+#here variable f doesnt refers to variable a, but f refers to the value which f is refering to.
+a=2
+
+print(f) #f will still refer to the value 1, cos a has been reassigned to 2 but f is still refering a's earlier value.
+
+v1 = "first string"
+v2 = "second string"
+v3=v1
+v4=v2
+v1=v4
+v2=v3
+print(v1)
+print(v2) 
